@@ -22,6 +22,13 @@ public class Calculator {
         return a / b;
     }
     }
+
+    public double squareRoot(double a) throws IllegalArgumentException {
+        if (a < 0) {
+            throw new IllegalArgumentException("Cannot calculate the square root of a negative number");
+        }
+        return Math.sqrt(a);
+    }
 }
 
 
