@@ -29,6 +29,9 @@ public class Calculator {
         }
         return Math.sqrt(a);
     }
+    public int square(int a) {
+        return a * a;
+    }
 }
 
 
